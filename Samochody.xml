@@ -2,10 +2,11 @@
 <Pojazdy>
 	<Rodzaj>
 		<Nazwa>Samochody osobowe - Hatchback</Nazwa>
-
+		<Opis>Samochody osobowe typu hatchback.</Opis>
 		<Marka>
 			<Nazwa>Volkswagen</Nazwa>
 			<Kraj>Niemcy</Kraj>
+			<DataPowstania>28.05.1937</DataPowstania>
 			<Model>
 				<Nazwa>Golf</Nazwa>
 				<Klasa>H</Klasa>
@@ -27,6 +28,7 @@
 		<Marka>
 			<Nazwa>Citroen</Nazwa>
 			<Kraj>Francja</Kraj>
+			<DataPowstania>4.06.1919</DataPowstania>
 			<Model>
 				<Nazwa>C1</Nazwa>
 				<Klasa>A</Klasa>
@@ -48,6 +50,7 @@
 		<Marka>
 			<Nazwa>Fiat</Nazwa>
 			<Kraj>Włochy</Kraj>
+			<DataPowstania>11.07.1899</DataPowstania>
 			<Model>
 				<Nazwa>500</Nazwa>
 				<Klasa>A</Klasa>
@@ -69,6 +72,7 @@
 		<Marka>
 			<Nazwa>Peugeot</Nazwa>
 			<Kraj>Francja</Kraj>
+			<DataPowstania>1896</DataPowstania>
 			<Model>
 				<Nazwa>107</Nazwa>
 				<Klasa>A</Klasa>
@@ -91,11 +95,11 @@
 
 	<Rodzaj>
 		<Nazwa>Samochody osobwe - Sedan</Nazwa>
-		<Opis>Pojazd ziemny czterokołowy</Opis>
-
+		<Opis>Samochody osobowe typu Sedan.</Opis>
 		<Marka>
 			<Nazwa>Ford</Nazwa>
 			<Kraj>USA</Kraj>
+			<DataPowstania>16.06.1903</DataPowstania>
 			<Model>
 				<Nazwa>Mondeo</Nazwa>
 				<Klasa>D</Klasa>
@@ -117,6 +121,7 @@
 		<Marka>
 			<Nazwa>Renault</Nazwa>
 			<Kraj>Francja</Kraj>
+			<DataPowstania>24.12.1898</DataPowstania>
 			<Model>
 				<Nazwa>Laguna</Nazwa>
 				<Klasa>D</Klasa>
@@ -130,6 +135,7 @@
 		<Marka>
 			<Nazwa>Peugeot</Nazwa>
 			<Kraj>Francja</Kraj>
+			<DataPowstania>1896</DataPowstania>
 			<Model>
 				<Nazwa>508</Nazwa>
 				<Klasa>D</Klasa>
@@ -151,6 +157,7 @@
 		<Marka>
 			<Nazwa>Volkswagen</Nazwa>
 			<Kraj>Niemcy</Kraj>
+			<DataPowstania>28.05.1937</DataPowstania>
 			<Model>
 				<Nazwa>Arteon</Nazwa>
 				<Klasa>E</Klasa>
@@ -173,11 +180,11 @@
 
 	<Rodzaj>
 		<Nazwa>Samochody osobwe - SUV</Nazwa>
-		<Opis>Pojazd ziemny czterokołowy</Opis>
-
+		<Opis>Samochody osobowe typu SUV.</Opis>
 		<Marka>
 			<Nazwa>BMW</Nazwa>
 			<Kraj>Niemcy</Kraj>
+			<DataPowstania>7.03.1916</DataPowstania>
 			<Model>
 				<Nazwa>X4</Nazwa>
 				<Klasa>D</Klasa>
@@ -199,6 +206,7 @@
 		<Marka>
 			<Nazwa>Volkswagen</Nazwa>
 			<Kraj>Niemcy</Kraj>
+			<DataPowstania>28.05.1937</DataPowstania>
 			<Model>
 				<Nazwa>Tiguan</Nazwa>
 				<Klasa>C</Klasa>
@@ -220,6 +228,7 @@
 		<Marka>
 			<Nazwa>Audi</Nazwa>
 			<Kraj>Niemcy</Kraj>
+			<DataPowstania>16.07.1909</DataPowstania>
 			<Model>
 				<Nazwa>Q5</Nazwa>
 				<Klasa>E</Klasa>
@@ -241,6 +250,7 @@
 		<Marka>
 			<Nazwa>Renault</Nazwa>
 			<Kraj>Francja</Kraj>
+			<DataPowstania>24.12.1898</DataPowstania>
 			<Model>
 				<Nazwa>Captur</Nazwa>
 				<Klasa>B</Klasa>

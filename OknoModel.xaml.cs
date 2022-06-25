@@ -22,7 +22,6 @@ namespace NET_ININ4_PR2._2_z5
         public OknoModel(System.Xml.XmlElement model)
         {
             DataContext = model;
-            Console.WriteLine(model);
             InitializeComponent();
         }
     }

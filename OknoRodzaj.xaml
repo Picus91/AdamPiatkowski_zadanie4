@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="Marki Samochodów" 
         Height="450" 
-        Width="300">
+        Width="300"
+>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -21,10 +22,15 @@
                 <DataTemplate>
                     <StackPanel>
                         <WrapPanel>
-                            <TextBlock Text="{Binding XPath=Nazwa}"/>
+							<TextBlock
+								FontSize="24"
+		                        FontWeight="Bold"
+								Text="{Binding XPath=Nazwa}"/>
                         </WrapPanel>
                         <WrapPanel>
-                            <TextBlock Text="   Kraj: "/>
+                            <TextBlock 
+								Text="Kraj: "
+								Padding="15,0,0,10"/>
                             <TextBlock Text="{Binding XPath=Kraj}"/>
                         </WrapPanel>
                     </StackPanel>

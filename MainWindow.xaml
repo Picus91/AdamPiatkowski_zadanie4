@@ -22,7 +22,13 @@
             >
             <ListBox.ItemTemplate>
                 <DataTemplate>
+					<StackPanel>
                     <TextBlock Text="{Binding XPath=Nazwa}"/>
+					<TextBlock 
+						Text="{Binding XPath=Opis}"
+						FontSize="14"
+					    Padding="20, 0,0,10"/>
+					</StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>

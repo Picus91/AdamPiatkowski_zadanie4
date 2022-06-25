@@ -19,7 +19,10 @@
                 <DataTemplate>
                     <StackPanel>
                         <WrapPanel>
-                            <TextBlock Text="{Binding XPath=Nazwa}"/>
+                            <TextBlock 
+							    FontSize="24"
+		                        FontWeight="Bold"
+								Text="{Binding XPath=Nazwa}"/>
                         </WrapPanel>
                         <WrapPanel>
                             <TextBlock Text="   Klasa Samochodu: "/>
