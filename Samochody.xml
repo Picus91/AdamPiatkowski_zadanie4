@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Pojazdy>
+	<Rodzaj>
+		<Nazwa>Samochody osobowe - Hatchback</Nazwa>
+
+		<Marka>
+			<Nazwa>Volkswagen</Nazwa>
+			<Kraj>Niemcy</Kraj>
+			<Model>
+				<Nazwa>Golf</Nazwa>
+				<Klasa>H</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>1.6</PojemnośćSilnika>
+					<MocSilnika>150KM</MocSilnika>
+				</Silnik>
+			</Model>
+			<Model>
+				<Nazwa>Up</Nazwa>
+				<Klasa>A</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>1.0</PojemnośćSilnika>
+					<MocSilnika>80KM</MocSilnika>
+				</Silnik>
+			</Model>
+		</Marka>
+
+		<Marka>
+			<Nazwa>Citroen</Nazwa>
+			<Kraj>Francja</Kraj>
+			<Model>
+				<Nazwa>C1</Nazwa>
+				<Klasa>A</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>1.0</PojemnośćSilnika>
+					<MocSilnika>90KM</MocSilnika>
+				</Silnik>
+			</Model>
+			<Model>
+				<Nazwa>C3</Nazwa>
+				<Klasa>A</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>1.2</PojemnośćSilnika>
+					<MocSilnika>100KM</MocSilnika>
+				</Silnik>
+			</Model>
+		</Marka>
+
+		<Marka>
+			<Nazwa>Fiat</Nazwa>
+			<Kraj>Włochy</Kraj>
+			<Model>
+				<Nazwa>500</Nazwa>
+				<Klasa>A</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>1.2</PojemnośćSilnika>
+					<MocSilnika>90KM</MocSilnika>
+				</Silnik>
+			</Model>
+			<Model>
+				<Nazwa>Panda</Nazwa>
+				<Klasa>A</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>1.2</PojemnośćSilnika>
+					<MocSilnika>100KM</MocSilnika>
+				</Silnik>
+			</Model>
+		</Marka>
+
+		<Marka>
+			<Nazwa>Peugeot</Nazwa>
+			<Kraj>Francja</Kraj>
+			<Model>
+				<Nazwa>107</Nazwa>
+				<Klasa>A</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>1.4</PojemnośćSilnika>
+					<MocSilnika>110KM</MocSilnika>
+				</Silnik>
+			</Model>
+			<Model>
+				<Nazwa>307</Nazwa>
+				<Klasa>C</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>1.6</PojemnośćSilnika>
+					<MocSilnika>130KM</MocSilnika>
+				</Silnik>
+			</Model>
+		</Marka>
+
+	</Rodzaj>
+
+	<Rodzaj>
+		<Nazwa>Samochody osobwe - Sedan</Nazwa>
+		<Opis>Pojazd ziemny czterokołowy</Opis>
+
+		<Marka>
+			<Nazwa>Ford</Nazwa>
+			<Kraj>USA</Kraj>
+			<Model>
+				<Nazwa>Mondeo</Nazwa>
+				<Klasa>D</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>2.0</PojemnośćSilnika>
+					<MocSilnika>150KM</MocSilnika>
+				</Silnik>
+			</Model>
+			<Model>
+				<Nazwa>Focus</Nazwa>
+				<Klasa>C</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>1.6</PojemnośćSilnika>
+					<MocSilnika>120KM</MocSilnika>
+				</Silnik>
+			</Model>
+		</Marka>
+
+		<Marka>
+			<Nazwa>Renault</Nazwa>
+			<Kraj>Francja</Kraj>
+			<Model>
+				<Nazwa>Laguna</Nazwa>
+				<Klasa>D</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>1.8</PojemnośćSilnika>
+					<MocSilnika>140KM</MocSilnika>
+				</Silnik>
+			</Model>
+		</Marka>
+
+		<Marka>
+			<Nazwa>Peugeot</Nazwa>
+			<Kraj>Francja</Kraj>
+			<Model>
+				<Nazwa>508</Nazwa>
+				<Klasa>D</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>2.0</PojemnośćSilnika>
+					<MocSilnika>160KM</MocSilnika>
+				</Silnik>
+			</Model>
+			<Model>
+				<Nazwa>607</Nazwa>
+				<Klasa>E</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>2.0</PojemnośćSilnika>
+					<MocSilnika>180KM</MocSilnika>
+				</Silnik>
+			</Model>
+		</Marka>
+
+		<Marka>
+			<Nazwa>Volkswagen</Nazwa>
+			<Kraj>Niemcy</Kraj>
+			<Model>
+				<Nazwa>Arteon</Nazwa>
+				<Klasa>E</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>2.2</PojemnośćSilnika>
+					<MocSilnika>210KM</MocSilnika>
+				</Silnik>
+			</Model>
+			<Model>
+				<Nazwa>Passat</Nazwa>
+				<Klasa>C</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>2.0</PojemnośćSilnika>
+					<MocSilnika>150KM</MocSilnika>
+				</Silnik>
+			</Model>
+		</Marka>
+
+	</Rodzaj>
+
+	<Rodzaj>
+		<Nazwa>Samochody osobwe - SUV</Nazwa>
+		<Opis>Pojazd ziemny czterokołowy</Opis>
+
+		<Marka>
+			<Nazwa>BMW</Nazwa>
+			<Kraj>Niemcy</Kraj>
+			<Model>
+				<Nazwa>X4</Nazwa>
+				<Klasa>D</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>2.0</PojemnośćSilnika>
+					<MocSilnika>180KM</MocSilnika>
+				</Silnik>
+			</Model>
+			<Model>
+				<Nazwa>X6</Nazwa>
+				<Klasa>D</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>2.5</PojemnośćSilnika>
+					<MocSilnika>250KM</MocSilnika>
+				</Silnik>
+			</Model>
+		</Marka>
+
+		<Marka>
+			<Nazwa>Volkswagen</Nazwa>
+			<Kraj>Niemcy</Kraj>
+			<Model>
+				<Nazwa>Tiguan</Nazwa>
+				<Klasa>C</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>1.6</PojemnośćSilnika>
+					<MocSilnika>150KM</MocSilnika>
+				</Silnik>
+			</Model>
+			<Model>
+				<Nazwa>Tuareg</Nazwa>
+				<Klasa>D</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>2.5</PojemnośćSilnika>
+					<MocSilnika>300KM</MocSilnika>
+				</Silnik>
+			</Model>
+		</Marka>
+
+		<Marka>
+			<Nazwa>Audi</Nazwa>
+			<Kraj>Niemcy</Kraj>
+			<Model>
+				<Nazwa>Q5</Nazwa>
+				<Klasa>E</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>2.0</PojemnośćSilnika>
+					<MocSilnika>210KM</MocSilnika>
+				</Silnik>
+			</Model>
+			<Model>
+				<Nazwa>Q3</Nazwa>
+				<Klasa>D</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>2.0</PojemnośćSilnika>
+					<MocSilnika>150KM</MocSilnika>
+				</Silnik>
+			</Model>
+		</Marka>
+
+		<Marka>
+			<Nazwa>Renault</Nazwa>
+			<Kraj>Francja</Kraj>
+			<Model>
+				<Nazwa>Captur</Nazwa>
+				<Klasa>B</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>1.4</PojemnośćSilnika>
+					<MocSilnika>130KM</MocSilnika>
+				</Silnik>
+			</Model>
+			<Model>
+				<Nazwa>Scenic</Nazwa>
+				<Klasa>C</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>1.6</PojemnośćSilnika>
+					<MocSilnika>150KM</MocSilnika>
+				</Silnik>
+			</Model>
+		</Marka>
+
+	</Rodzaj>
+	
+
+</Pojazdy>
