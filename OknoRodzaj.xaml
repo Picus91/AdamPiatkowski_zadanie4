@@ -1,13 +1,14 @@
-﻿<Window x:Class="NET_ININ4_PR2._2_z5.OknoRodzaj"
+﻿<Window x:Class="AdamPiatkowski_zadanie4.OknoRodzaj"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:NET_ININ4_PR2._2_z5"
+        xmlns:local="clr-namespace:AdamPiatkowski_zadanie4"
         mc:Ignorable="d"
         Title="Marki Samochodów" 
         Height="450" 
         Width="300"
+        FontSize="18"
 >
     <Grid>
         <Grid.RowDefinitions>
@@ -21,18 +22,13 @@
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel>
-                        <WrapPanel>
-							<TextBlock
-								FontSize="24"
-		                        FontWeight="Bold"
-								Text="{Binding XPath=Nazwa}"/>
-                        </WrapPanel>
-                        <WrapPanel>
-                            <TextBlock 
-								Text="Kraj: "
-								Padding="15,0,0,10"/>
-                            <TextBlock Text="{Binding XPath=Kraj}"/>
-                        </WrapPanel>
+                        <TextBlock 
+                            Style="{StaticResource TextBlock.Bold}"
+                            Text="{Binding XPath=Nazwa}"/>
+                        <TextBlock 
+						    Text="{Binding XPath=Kraj}"
+						    FontSize="14"
+					        Padding="20, 0,0,10"> - Kraj pochodzenia</TextBlock>
                     </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>

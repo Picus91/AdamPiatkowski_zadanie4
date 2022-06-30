@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace NET_ININ4_PR2._2_z5
+namespace AdamPiatkowski_zadanie4
 {
     /// <summary>
     /// Interaction logic for OknoModel.xaml
