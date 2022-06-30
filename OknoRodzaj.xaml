@@ -17,18 +17,22 @@
         </Grid.RowDefinitions>
         <ListBox
             Name="Marka"
-            ItemsSource="{Binding XPath=Marka}"
-            >
+            ItemsSource="{Binding XPath=Marka}">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel>
                         <TextBlock 
                             Style="{StaticResource TextBlock.Bold}"
                             Text="{Binding XPath=Nazwa}"/>
-                        <TextBlock 
-						    Text="{Binding XPath=Kraj}"
-						    FontSize="14"
-					        Padding="20, 0,0,10"> - Kraj pochodzenia</TextBlock>
+                        <WrapPanel>
+                            <TextBlock 
+						        Text="Kraj pochodzenia: "
+						        FontSize="12"></TextBlock>
+                            <TextBlock 
+                                FontSize="12"
+						        Text="{Binding XPath=Kraj}"
+                                HorizontalAlignment="Center"></TextBlock>
+                        </WrapPanel>
                     </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>

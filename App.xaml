@@ -14,6 +14,7 @@
 
         <Style x:Key="TextBlock.Bold" TargetType="TextBlock">
             <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
         </Style>
 
         <Style x:Key="Label.Samochody" TargetType="Label" BasedOn="{StaticResource {x:Type Label}}">
@@ -24,7 +25,6 @@
         <XmlDataProvider
             Source="Samochody.xml"
             x:Key="DaneSamochody"
-            XPath="Pojazdy"
-            />
+            XPath="Pojazdy"/>
     </Application.Resources>
 </Application>

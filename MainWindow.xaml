@@ -19,7 +19,7 @@
             Name="Pojazdy"
             DataContext="{DynamicResource DaneSamochody}"
             ItemsSource="{Binding XPath=Rodzaj}"
-            >
+            HorizontalContentAlignment="Center">
             <ListBox.ItemTemplate>
                 <DataTemplate>
 					<StackPanel>
@@ -28,8 +28,8 @@
                         Style="{StaticResource TextBlock.Bold}"/>
 					<TextBlock 
 						Text="{Binding XPath=Opis}"
-						FontSize="14"
-					    Padding="20, 0,0,10"/>
+                        Padding="20, 0,0,10"
+						FontSize="14"/>
 					</StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>

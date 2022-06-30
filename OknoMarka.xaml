@@ -18,16 +18,19 @@
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel>
+                        <TextBlock 
+							    FontSize="24"
+		                        Style="{StaticResource TextBlock.Bold}"
+								Text="{Binding XPath=Nazwa}"/>
                         <WrapPanel>
                             <TextBlock 
-							    FontSize="24"
-		                        FontWeight="Bold"
-								Text="{Binding XPath=Nazwa}"/>
+                                Text="Klasa samochodu: ">
+                            </TextBlock>
+                            <TextBlock 
+                                Text="{Binding XPath=Klasa}">
+                            </TextBlock>
                         </WrapPanel>
-                        <WrapPanel>
-                            <TextBlock Text="   Klasa Samochodu: "/>
-                            <TextBlock Text="{Binding XPath=Klasa}"/>
-                        </WrapPanel>
+
                     </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
